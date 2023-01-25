@@ -45,7 +45,7 @@ const mapStateToProps = (state) => ({
       0
     );
     if (sumOfCart === 0) {
-      return <h1>Add Item to cart to buy</h1>;
+      return <h5>YOUR CART IS EMPTY</h5>;
     } else {
       return sumOfCart;
     }
