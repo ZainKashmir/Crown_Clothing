@@ -26,4 +26,3 @@ const mapStateToProps = (state) => ({
 });
 
 export const CartIcon = connect(mapStateToProps)(CartIconComponent);
-// export const CartIcon= CartIconComponent

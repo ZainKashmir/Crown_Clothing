@@ -54,9 +54,6 @@ export class SignUp extends Component {
   };
 
   render() {
-    {
-      console.log("SignUp");
-    }
     return (
       <div>
         <h2>I Don't Have An Account</h2>

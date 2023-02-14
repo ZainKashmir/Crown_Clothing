@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/index";
 import { Homepage } from "./pages/index";
 import { Shop } from "./pages/index";
-import { Contact } from "./pages/index";
 import { Authentication } from "./pages/authentication/authentication.page";
 import { auth, createUserProfileDocument } from "./firebas/firebase.utils";
 import store from "./redux/store";
@@ -42,7 +41,7 @@ class App extends Component {
         <Navbar />
         <Routes>
           <Route path="/shop" element={<Shop />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Authentication />} />
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/authentication" element={<Authentication />} />
           <Route exact path="/checkout" element={<Checkout />} />
