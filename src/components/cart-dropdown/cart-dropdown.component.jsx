@@ -1,13 +1,10 @@
 import React from "react";
+
 import { connect } from "react-redux";
-
-// import { createStructuredSelector } from "reselect";
 import { Link } from "react-router-dom";
-
 import { AppButton } from "../appbutton/appbutton";
 import { CartItem } from "./../cart-item/cart-item.component";
 import { toggleCartHidden } from "../../redux/reducer";
-
 import "./cart-dropdown.styles.scss";
 import store from "../../redux/store";
 
